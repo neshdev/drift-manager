@@ -5,7 +5,7 @@ Resources               Results
 ---------               -------
 C, L, R                 Q, H
 
-equality relation       existential predicate
+equality relation       satisfaction predicate
 
 reconcile R -> C        grow H until P(Q,H)
 
@@ -20,8 +20,8 @@ C = desired resource state
 L = last acknowledged resource state
 R = observed resource state
 
-Q = Result(Model, TaskVersion)
-H = observed execution history
+Q = declarative requirement
+H = observed facts/history
 P = satisfaction predicate
 ```
 
